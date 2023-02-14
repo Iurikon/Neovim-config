@@ -66,6 +66,8 @@ require('packer').startup(function(use)
   use 'fatih/vim-go' -- Go autocompletion
   use 'windwp/nvim-autopairs' -- Automatic bracket closing
   use { 'github/copilot.vim', branch = 'release' }
+  use 'nvim-tree/nvim-web-devicons'
+  use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
 
   -- Fuzzy Finder (files, lsp, etc)
   use { 'nvim-telescope/telescope.nvim', branch = '0.1.x', requires = { 'nvim-lua/plenary.nvim' } }
